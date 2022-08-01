@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app icon" translatesAutoresizingMaskIntoConstraints="NO" id="w2Z-n8-OFr">
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.94876569509999997" green="0.9495370984" blue="0.9566081166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="0Ut-6f-ByZ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="Wbx-6N-adM"/>
+                                    <constraint firstAttribute="height" constant="200" id="Yri-N7-4BR"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="200" id="Z8o-Qb-xuS"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="200" id="tsn-mf-AgD"/>
+                                    <constraint firstAttribute="width" constant="200" id="xFx-ky-9wV"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="yfw-TY-97S"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.94876569509999997" green="0.9495370984" blue="0.9566081166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="w2Z-n8-OFr" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5XZ-1I-7Qp"/>
+                            <constraint firstItem="w2Z-n8-OFr" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ahf-pJ-Emm"/>
+                            <constraint firstItem="w2Z-n8-OFr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="msV-xz-aof"/>
+                            <constraint firstItem="w2Z-n8-OFr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zZe-zE-A35"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app icon" width="512" height="512"/>
+    </resources>
+</document>
